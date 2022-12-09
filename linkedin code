@@ -24,3 +24,8 @@ var intervalID = setInterval(function () {
        window.clearInterval(intervalID);
    }
 }, 1000);
+
+
+# How to use  robotjs - 10 common examples
+
+https://snyk.io/advisor/npm-package/robotjs/example
