@@ -1,0 +1,12 @@
+/* code to send connection request to linkedin on this page https://www.linkedin.com/mynetwork/ */
+
+var request_send = document.getElementsByClassName("artdeco-button artdeco-button--2 artdeco-button--secondary ember-view full-width")
+
+
+var x = 0;
+var intervalID = setInterval(function () {
+    request_send[x].click();
+   if (++x === 8) {
+       window.clearInterval(intervalID);
+   }
+}, 1000);
