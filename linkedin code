@@ -31,6 +31,17 @@ var intervalID = setInterval(function () {
 https://snyk.io/advisor/npm-package/robotjs/example
 
 # Check the element exists in dom or not and copy outout to clipboard
-var paragraphs = document.getElementsByClassName("sign-in-form__form-input-container");
-console.log(paragraphs?.length);
-copy(paragraphs?.length);
+//check account already login and copy result to clip
+var obj = document.getElementsByClassName("member-profile__details");copy(obj?.length);
+
+//if account already login then click on 3 dots
+var btn = document.getElementsByClassName("more-actions-btn");btn[0]?.click();
+
+
+// find the remove account and click on first one
+var icon_list = document.querySelectorAll('.body__banner-icon');
+icon_list.forEach(item => { if(item.parentNode.getAttribute('data-cie-control-urn') === 'remove_account'){ item.parentNode.click(); } });
+
+
+
+
