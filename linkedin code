@@ -29,3 +29,8 @@ var intervalID = setInterval(function () {
 # How to use  robotjs - 10 common examples
 
 https://snyk.io/advisor/npm-package/robotjs/example
+
+# Check the element exists in dom or not and copy outout to clipboard
+var paragraphs = document.getElementsByClassName("sign-in-form__form-input-container");
+console.log(paragraphs?.length);
+copy(paragraphs?.length);
