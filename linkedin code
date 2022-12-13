@@ -39,8 +39,8 @@ var btn = document.getElementsByClassName("more-actions-btn");btn[0]?.click();
 
 
 // find the remove account and click on first one
-var icon_list = document.querySelectorAll('.body__banner-icon');
-icon_list.forEach(item => { if(item.parentNode.getAttribute('data-cie-control-urn') === 'remove_account'){ item.parentNode.click(); } });
+var icon_list = document.querySelectorAll(".body__banner-icon");
+icon_list.forEach(item => { if(item.parentNode.getAttribute("data-cie-control-urn") === "remove_account"){ item.parentNode.click(); } });
 
 
 
