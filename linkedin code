@@ -43,5 +43,7 @@ var icon_list = document.querySelectorAll(".body__banner-icon");
 icon_list.forEach(item => { if(item.parentNode.getAttribute("data-cie-control-urn") === "remove_account"){ item.parentNode.click(); } });
 
 
+https://receive-smss.com/
 
+https://receive-sms-online.info/
 
